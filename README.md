@@ -80,12 +80,12 @@ The app should launch on the chosen device.
 
 # App Screenshots
 
-![Home Screen](main_ui_activity.png)
-![Development Screen](development_activity_ui.png)
-![Android App Dev Screen](android_app_dev_ui.png)
-![Web Dev Screen](web_dev_ui.png)
-![IOS App Screen](ios_app_dev_ui.png)
-![Machine Learning Screen](machine_learning_ui.png)
+![Home Screen]([android_app_dev_ui.png](https://github.com/sandeepmehra28/Assignment-First-Android-Kotlin-/blob/d4559e2167cd8045d628998c727c9ddcbb7ca760/Screenshot%202025-09-25%20231850.png))
+![Development Screen]([development_activity_ui.png](https://github.com/sandeepmehra28/Assignment-First-Android-Kotlin-/blob/d4559e2167cd8045d628998c727c9ddcbb7ca760/Screenshot%202025-09-25%20231912.png))
+![Android App Dev Screen]([android_app_dev_ui.png](https://github.com/sandeepmehra28/Assignment-First-Android-Kotlin-/blob/d4559e2167cd8045d628998c727c9ddcbb7ca760/Screenshot%202025-09-25%20231932.png))
+![Web Dev Screen]([web_dev_ui.png](https://github.com/sandeepmehra28/Assignment-First-Android-Kotlin-/blob/d4559e2167cd8045d628998c727c9ddcbb7ca760/Screenshot%202025-09-25%20231952.png))
+![IOS App Screen]([ios_app_dev_ui.png](https://github.com/sandeepmehra28/Assignment-First-Android-Kotlin-/blob/d4559e2167cd8045d628998c727c9ddcbb7ca760/Screenshot%202025-09-25%20232009.png))
+![Machine Learning Screen]([machine_learning_ui.png](https://github.com/sandeepmehra28/Assignment-First-Android-Kotlin-/blob/d4559e2167cd8045d628998c727c9ddcbb7ca760/Screenshot%202025-09-25%20232020.png))
 
 ✅Features / What Works
 
