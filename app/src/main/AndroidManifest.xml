@@ -13,6 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssignmentApp">
         <activity
+            android:name=".MLActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IOSDevActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebDevActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidDevActivity"
+            android:exported="false" />
+        <activity
             android:name=".DevelopmentActivity"
             android:exported="false" />
         <activity

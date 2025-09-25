@@ -3,16 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
-    android:layout_margin="20dp"
-    android:background="#DFD5D5"
+    android:layout_margin="15dp"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DevelopmentActivity">
     <LinearLayout
         android:layout_gravity="center"
         android:gravity="center"
-        android:padding="10dp"
-        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:layout_marginTop="60dp"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -20,35 +21,41 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/AndroidDevBtn"
             android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/green"
             android:layout_width="178dp"
-            android:layout_height="150dp" >
+            android:layout_height="200dp" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/android_app_logo"/>
             <TextView
-                android:gravity="center"
-                android:textSize="25dp"
-                android:padding="10dp"
-                android:layout_gravity="center"
+                android:layout_width="178dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="100dp"
                 android:textColor="@color/black"
+                android:gravity="center"
+                android:text="Android App\nDevelopment"
                 android:textStyle="bold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Android\nApp\nDevelopment"/>
+                android:textSize="20sp"
+                />
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_marginStart="10dp"
             android:id="@+id/WebDevBtn"
-            android:backgroundTint="@color/gray"
+            android:backgroundTint="@color/white"
             android:layout_width="178dp"
-            android:layout_height="150dp">
+            android:layout_height="200dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/web_dev_logo"/>
             <TextView
-                android:gravity="center"
-                android:textSize="25dp"
-                android:layout_gravity="center"
-                android:padding="10dp"
+                android:layout_marginTop="100dp"
                 android:textColor="@color/black"
+                android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_width="178dp"
+                android:layout_height="80dp"
                 android:text="Web\nDevelopment"
                 />
         </androidx.cardview.widget.CardView>
@@ -65,36 +72,43 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/IOSDevBtn"
             android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/orange"
+            android:backgroundTint="@color/white"
             android:layout_width="178dp"
-            android:layout_height="150dp" >
+            android:layout_height="200dp" >
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:src="@drawable/ios_app_logo"/>
             <TextView
-                android:gravity="center"
-                android:textSize="25dp"
-                android:padding="10dp"
-                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
                 android:textColor="@color/black"
+                android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="IOS\nApp\nDevelopment"/>
+                android:gravity="center"
+                android:layout_width="178dp"
+                android:layout_height="80dp"
+                android:text="IOS App\nDevelopment"
+                />
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_marginStart="10dp"
             android:id="@+id/MLBtn"
-            android:backgroundTint="@color/teal"
+            android:backgroundTint="@color/white"
             android:layout_width="178dp"
-            android:layout_height="150dp">
+            android:layout_height="200dp">
+           <ImageView
+               android:src="@drawable/ml_logo"
+               android:layout_width="match_parent"
+               android:layout_height="100dp"/>
             <TextView
-                android:gravity="center"
-                android:textSize="25dp"
-                android:padding="10dp"
-                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
                 android:textColor="@color/black"
+                android:textSize="20sp"
                 android:textStyle="bold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Machine \n learning"
+                android:gravity="center"
+                android:layout_width="178dp"
+                android:layout_height="80dp"
+                android:text="Machine\nLearning"
                 />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
